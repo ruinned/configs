@@ -1,0 +1,5 @@
+hardstatus alwayslastline "%{.Kw} %c | %-Lw%{Y}%n%f *%t*%{-}%+Lw | %{.Kw}%u"
+vbell off
+defutf8 on
+encoding utf8 utf8
+startup_message off

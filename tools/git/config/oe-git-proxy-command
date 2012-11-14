@@ -1,0 +1,14 @@
+#! /bin/bash
+
+# Before using this script, do remember edit the .bashrc file
+#	export GIT_PROXY_HOST=proxy_server_ip
+#	export GIT_PROXY_PORT=proxy_server_port
+#	export GIT_PROXY_COMMAND=location_to_this_script/oe-git-proxy-command
+
+(echo "CONNECT $1:$2 HTTP/1.0"; 
+ echo; 
+ cat ) | nc $GIT_PROXY_HOST $GIT_PROXY_PORT | 
+  
+(read a; 
+ read a; 
+ cat )

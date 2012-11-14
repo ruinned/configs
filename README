@@ -1,0 +1,32 @@
+	Personal Configs for Yilin
+
+This is my personal config backups, in case of system re-installation.
+And I can sync the configs between different computers.
+
+Folder Structure
+/-------- tools
+	|
+	- docs
+
+
+==================================================
+
+Modify files:
+
+[1] ~/.bashrc
+    add "export GIT_PROXY=1" to use git proxy
+
+[2] ~/.vimrc
+    symbol link to file 'configs/tools/vim/config/vimrc'
+    ~/.vim
+    symbol link to folder 'configs/tools/vim/plugins'
+
+    ** Note: ctags and cscope are required.
+
+[3] ~/.gitconfig
+    symbol link to file 'configs/tools/git/config/gitconfig'
+
+    ** Note: git-core required.
+
+[4] ~/.screenrc
+    symbol link to file 'configs/tools/screen/config/screenrc'
