@@ -98,6 +98,9 @@ endif
 " Show line number
 set number
 
+" Set cursor line
+set cursorline
+
 " No backup files
 set nobackup
 
