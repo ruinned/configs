@@ -1,1 +1,0 @@
-oe-git-proxy-command
