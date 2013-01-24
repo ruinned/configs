@@ -101,13 +101,16 @@ set number
 " Set cursor line
 set cursorline
 
+" Set color scheme
+colorscheme morning
+
 " No backup files
 set nobackup
 
 " Window Manager
 nmap wm :WMToggle<cr>
 let g:winManagerWindowLayout = 'FileExplorer|TagList'
-let g:winManagerWidth = 50
+let g:winManagerWidth = 30
 
 " cscope settings
 set cscopequickfix=s-,c-,d-,i-,t-,e-
