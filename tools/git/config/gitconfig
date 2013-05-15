@@ -3,3 +3,11 @@
 	email = yilin.sun@desay-svautomotive.com
 [color]
 	ui = auto
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	cmd = /home/uida3867/repo/configs/tools/git/config/git-diff-wrapper.sh
+[merge]
+	tool = bc3
+[mergetool]
+	bc3 = trustExitCode
