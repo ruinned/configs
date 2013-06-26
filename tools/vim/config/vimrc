@@ -115,4 +115,4 @@ let g:winManagerWidth = 30
 " cscope settings
 set cscopequickfix=s-,c-,d-,i-,t-,e-
 
-set tags=./tags,./TAGS,tags,TAGS,./etags,ETAGS
+set tags=./tags,./ctags,./TAGS,tags,TAGS,./etags,ETAGS
