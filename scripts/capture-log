@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ${HOME}/log
+nc -ulk 2000 | tee target.log
