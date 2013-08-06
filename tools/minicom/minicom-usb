@@ -1,1 +1,1 @@
-minicom -D /dev/ttyUSB0 -o -c on
+minicom -D /dev/ttyUSB0 -o -c on -w
