@@ -1,3 +1,5 @@
+
+
 # remove bcompare registry data file to extend the evaluation days.
 if [ -f ~/.config/bcompare/registry.dat ]; then
     rm ~/.config/bcompare/registry.dat
