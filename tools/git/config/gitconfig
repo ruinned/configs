@@ -11,3 +11,5 @@
 	tool = bc3
 [mergetool]
 	bc3 = trustExitCode
+[http]
+	sslverify = false
