@@ -1,0 +1,3 @@
+#!/bin/sh
+
+repo forall -c "echo;echo;git remote -v;git log -n1"
