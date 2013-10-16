@@ -1,3 +1,4 @@
 #!/bin/sh
+# dump repo version into a file
 
-repo forall -c "echo;echo;git remote -v;git log -n1"
+repo forall -c "echo;echo;git remote -v;git log -n1 --oneline" | tee repo_version
