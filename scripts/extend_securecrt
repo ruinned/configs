@@ -1,0 +1,7 @@
+cat << EOF >> ${HOME}/.bashrc
+
+# remove bcompare registry data file to extend the evaluation days.
+if [ -f ~/.vandyke/SecureCRT/Config/SecureCRT_eval.lic ]; then
+    rm -f ~/.vandyke/SecureCRT/Config/SecureCRT_eval.lic
+fi
+EOF
