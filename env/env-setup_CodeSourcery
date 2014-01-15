@@ -1,0 +1,4 @@
+export PATH=${PATH}:/opt/code/desay/sv-g4-system/CodeSourcery/Sourcery_G++_Lite/bin
+export ARCH=arm
+export CROSS_COMPILE=arm-none-linux-gnueabi-
+PS1='${debian_chroot:+($debian_chroot)}\u@\h(GCC_CodeSourcery):\w\$ '
