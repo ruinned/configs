@@ -1,6 +1,8 @@
 [user]
 	name = Yilin.Sun
 	email = yilin.sun@desay-svautomotive.com
+[core]
+	editor = vi
 [color]
 	ui = auto
 [diff]
