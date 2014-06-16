@@ -1,0 +1,3 @@
+#!/bin/sh
+
+export LM_LICENSE_FILE=/opt/tar/mentor/Site_3109209.txt
