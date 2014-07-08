@@ -8,10 +8,12 @@
 [diff]
 	tool = bc3
 [difftool "bc3"]
-	cmd = /home/uida3867/repo/configs/tools/git/config/git-diff-wrapper.sh
+	trustExitCode = true
 [merge]
 	tool = bc3
 [mergetool]
-	bc3 = trustExitCode
+	keepBackup = false
+[mergetool "bc3"]
+	trustExitCode = true
 [http]
 	sslverify = false

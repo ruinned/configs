@@ -3,6 +3,6 @@ Type=Application
 Name=Eclipse
 Comment=Eclipse Integrated Development Environment
 Icon=/opt/ide/eclipse/icon.xpm
-Exec=eclipse
+Exec=/opt/ide/eclipse/eclipse
 Terminal=false
 Categories=Development;IDE;Java;
