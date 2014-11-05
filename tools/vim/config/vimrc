@@ -102,7 +102,7 @@ set number
 set cursorline
 
 " Set color scheme
-colorscheme morning
+" colorscheme morning
 
 " No backup files
 set nobackup
