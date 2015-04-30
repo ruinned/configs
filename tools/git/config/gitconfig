@@ -3,6 +3,7 @@
 	email = yilin.sun@desay-svautomotive.com
 [core]
 	editor = vi
+	filemode = true
 [color]
 	ui = auto
 [diff]

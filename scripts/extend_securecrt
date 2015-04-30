@@ -1,7 +1,4 @@
-cat << EOF >> ${HOME}/.bashrc
-
 # remove SecureCRT license file to extend the evaluation days.
 if [ -f ~/.vandyke/SecureCRT/Config/SecureCRT_eval.lic ]; then
     rm -f ~/.vandyke/SecureCRT/Config/SecureCRT_eval.lic
 fi
-EOF

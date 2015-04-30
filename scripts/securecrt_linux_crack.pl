@@ -27,9 +27,9 @@ sub license {
 	"License:\n\n".
 	"\tName:\t\txiaobo_l\n".
 	"\tCompany:\twww.boll.me\n".
-	"\tSerial Number:\t03-61-166978\n".
-	"\tLicense Key:\tABC89D UFDU94 C94CBU 7V17SU ABTUS5 QXX9E5 PF12H6 R62SHC\n".
-	"\tIssue Date:\t12-22-2013\n\n\n";
+	"\tSerial Number:\t03-81-135861\n".
+	"\tLicense Key:\tABQ2RM 37H35U 8YC3UY J9WEJG ADFYX6 Z9F5ZD UKD9X2 GRJ2CU\n".
+	"\tIssue Date:\t03-03-2015\n\n\n";
 }
 
 sub usage {
