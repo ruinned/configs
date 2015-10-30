@@ -1,6 +1,7 @@
 [user]
 	name = Yilin.Sun
 	email = yilin.sun@desay-svautomotive.com
+	signingkey = F58263EF
 [core]
 	editor = vi
 	filemode = true
