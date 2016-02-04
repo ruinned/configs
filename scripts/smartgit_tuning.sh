@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "-Xmx1024m" >> ${HOME}/.smartgit/7/smartgit.properties
+sudo sh -c "echo \"-Xmx1024m\" >> /usr/share/smartgit/bin/smartgit.vmoptions"
 
 echo "Changing watch limit..."
 sudo sh -c "echo \"fs.inotify.max_user_watches = 102400\" >> /etc/sysctl.conf"
