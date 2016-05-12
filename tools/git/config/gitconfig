@@ -5,6 +5,7 @@
 [core]
 	editor = vi
 	filemode = true
+	autocrlf = input
 [color]
 	ui = auto
 [diff]
