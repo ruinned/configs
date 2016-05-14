@@ -2,7 +2,7 @@
 
 ## repo default configuration
 ##
-REPO_URL = 'git@10.219.68.248:a-b02/repo/git-repo'
+REPO_URL = 'git@10.219.68.248:ab02-os/git-repo'
 REPO_REV = 'desay-stable'
 
 # Copyright (C) 2008 Google Inc.
