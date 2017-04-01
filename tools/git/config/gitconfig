@@ -9,14 +9,14 @@
 [color]
 	ui = auto
 [diff]
-	tool = bc3
-[difftool "bc3"]
+	tool = meld
+[difftool "meld"]
 	trustExitCode = true
 [merge]
-	tool = bc3
+	tool = meld
 [mergetool]
 	keepBackup = false
-[mergetool "bc3"]
+[mergetool "meld"]
 	trustExitCode = true
 [http]
 	sslverify = false
